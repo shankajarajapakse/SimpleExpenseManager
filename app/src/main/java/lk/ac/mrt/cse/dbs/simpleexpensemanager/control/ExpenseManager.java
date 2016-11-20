@@ -33,7 +33,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
  * The ExpenseManager acts as the mediator when performing transactions. This is an abstract class with an abstract
  * method to setup the DAO objects depending on the implementation.
  */
-public abstract class ExpenseManager implements Serializable{
+public abstract class ExpenseManager implements Serializable {
     private AccountDAO accountsHolder;
     private TransactionDAO transactionsHolder;
 
