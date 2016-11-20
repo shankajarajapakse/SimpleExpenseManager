@@ -1,4 +1,4 @@
-package lk.ac.mrt.cse.dbs.simpleexpensemanager.ui;
+package lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl;
 
 
 import android.content.ContentValues;
