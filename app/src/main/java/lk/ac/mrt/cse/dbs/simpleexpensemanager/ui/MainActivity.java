@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         /***  Begin generating dummy data for In-Memory implementation  ***/
-        expenseManager = new InMemoryDemoExpenseManager();
+        expenseManager = new PersistentExpenseManager(this);
         /*** END ***/
     }
 
@@ -95,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        @Override
         public int getCount() {
             // Show 3 total pages.
             return 3;
